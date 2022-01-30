@@ -19,7 +19,7 @@ print("""
 
 """)
 
-print(f"{Fore.YELLOW}Welcome to krnlX Launcher!")
+print("Welcome to krnlX Launcher!")
 time.sleep(1)
 print("""
  ╦═════════════════════════╦
@@ -28,7 +28,7 @@ print("""
  ╩═════════════════════════╩
  """)
 
-mode = input(f"{Fore.LIGHTBLUE_EX}\n [{Fore.GREEN}>>>{Fore.LIGHTBLUE_EX}]{Fore.RESET} Option: ")
+mode = input("[>>>] Option: ")
 
 if (mode == "1"):
  class launcher:
