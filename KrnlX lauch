@@ -7,7 +7,7 @@ print("""
 
 """)
 
-printSlow(f"{Fore.YELLOW}Welcome to krnlX Launcher!")
+print(f"{Fore.YELLOW}Welcome to krnlX Launcher!")
 time.sleep(1)
 print("""
  ╦═════════════════════════╦
