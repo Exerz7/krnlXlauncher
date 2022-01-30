@@ -10,7 +10,7 @@ import os
 import itertools
 import subprocess
 
-print("""
+print(f"""{Fore.RED}
   _               ___  __
  | | ___ __ _ __ | \ \/ |
  | |/ / '__| '_ \| |\  / 
@@ -19,7 +19,7 @@ print("""
 
 """)
 
-print("Welcome to krnlX Launcher!")
+print(f"{Fore.YELLOW}Welcome to krnlX Launcher!{Fore.RESET}")
 time.sleep(1)
 print("""
  ╦═════════════════════════╦
