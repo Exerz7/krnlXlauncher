@@ -33,6 +33,12 @@ print("""
 
 mode = input("[>>>] Option: ")
 
+if (mode == "2"):
+    os.system("CLS")
+    printSlow(f"{Fore.GREEN}Thanks for using{Fore.BLUE} [RevX]")
+    time.sleep(3)
+    exit()   
+
 if (mode == "1"):
  class launcher:
     getcode = requests.get("https://raw.githubusercontent.com/Exerz7/NitroGenSCR/main/KrnlX%20v1")
